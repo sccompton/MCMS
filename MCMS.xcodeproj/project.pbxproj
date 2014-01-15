@@ -27,6 +27,7 @@
 		9EEBA5DD18860F7F00BDE762 /* yeti.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EEBA5DC18860F7F00BDE762 /* yeti.png */; };
 		9EEBA5DF18860F8500BDE762 /* centaur.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EEBA5DE18860F8500BDE762 /* centaur.png */; };
 		9EEBA5E118860F8B00BDE762 /* unicorn.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EEBA5E018860F8B00BDE762 /* unicorn.png */; };
+		9EEBA5E41886423C00BDE762 /* BattleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EEBA5E31886423C00BDE762 /* BattleViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +68,8 @@
 		9EEBA5DC18860F7F00BDE762 /* yeti.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = yeti.png; path = ../../../Desktop/yeti.png; sourceTree = "<group>"; };
 		9EEBA5DE18860F8500BDE762 /* centaur.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = centaur.png; path = ../../../Desktop/centaur.png; sourceTree = "<group>"; };
 		9EEBA5E018860F8B00BDE762 /* unicorn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = unicorn.png; path = ../../../Desktop/unicorn.png; sourceTree = "<group>"; };
+		9EEBA5E21886423C00BDE762 /* BattleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BattleViewController.h; sourceTree = "<group>"; };
+		9EEBA5E31886423C00BDE762 /* BattleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BattleViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,6 +134,8 @@
 				9EBA43171885D4CF00F74F8E /* AppDelegate.h */,
 				9EBA43181885D4CF00F74F8E /* AppDelegate.m */,
 				9EBA431A1885D4CF00F74F8E /* Main.storyboard */,
+				9EEBA5E21886423C00BDE762 /* BattleViewController.h */,
+				9EEBA5E31886423C00BDE762 /* BattleViewController.m */,
 				9EAD8A8F1885DE5A00E15648 /* MagicalCreature.h */,
 				9EAD8A901885DE5A00E15648 /* MagicalCreature.m */,
 				9EAD8A8C1885DCA500E15648 /* CreatureViewController.h */,
@@ -277,6 +282,7 @@
 			files = (
 				9EBA431F1885D4CF00F74F8E /* ViewController.m in Sources */,
 				9EAD8A8E1885DCA500E15648 /* CreatureViewController.m in Sources */,
+				9EEBA5E41886423C00BDE762 /* BattleViewController.m in Sources */,
 				9EAD8A911885DE5A00E15648 /* MagicalCreature.m in Sources */,
 				9EBA43191885D4CF00F74F8E /* AppDelegate.m in Sources */,
 				9EBA43151885D4CF00F74F8E /* main.m in Sources */,

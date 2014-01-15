@@ -35,6 +35,7 @@
     creature.name = @"Unicorn";
     creature.attackPoints = 50;
     creature.hitPoints = 50;
+    creature.accessories = @"lightsaber horn";
     creature.creatureImage = @"/unicorn.png";
     creature.description = @"The unicorn is a legendary animal that has been described since antiquity as a beast with a large, pointed, spiraling horn projecting from its forehead. The unicorn was depicted in ancient seals of the Indus Valley Civilization and was mentioned by the ancient Greeks in accounts of natural history by various writers, including Ctesias, Strabo, Pliny the Younger, and Aelian. The Bible also describes an animal, the re'em, which some translations have rendered with the word unicorn";
     [creatures addObject:creature];
@@ -43,12 +44,14 @@
     creature.name = @"Yeti";
     creature.attackPoints = 50;
     creature.hitPoints = 50;
+    creature.accessories = @"spear";
     creature.creatureImage = @"/yeti.png";
     creature.description = @"The Yeti or Abominable Snowman is an ape-like cryptid taller than an average human that is said to inhabit the Himalayan region of Nepal and Tibet.[3] The names Yeti and Meh-Teh are commonly used by the people indigenous to the region, and are part of their history and mythology. Stories of the Yeti first emerged as a facet of Western popular culture in the 19th century.";
     [creatures addObject:creature];
     
     creature = [MagicalCreature new];
     creature.name = @"Centaur";
+    creature.accessories = @"mace";
     creature.creatureImage = @"/centaur.png";
     creature.attackPoints = 50;
     creature.hitPoints = 50;

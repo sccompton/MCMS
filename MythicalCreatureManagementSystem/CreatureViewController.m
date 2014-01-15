@@ -7,6 +7,7 @@
 //
 
 #import "CreatureViewController.h"
+#import "BattleViewController.h"
 
 @interface CreatureViewController ()<UITextFieldDelegate>
 
@@ -19,6 +20,8 @@
     __weak IBOutlet UILabel *creatureAttackPoints;
     __weak IBOutlet UITextView *creatureDescription;
     __weak IBOutlet UIImageView *creatureImage;
+    __weak IBOutlet UILabel *creatureAccessories;
+    __weak IBOutlet UIButton *battleButton;
 }
 
 
@@ -77,7 +80,9 @@
     creatureAttackPoints.text = [NSString stringWithFormat:@"%d",creature.attackPoints];
     creatureHitPoints.text = [NSString stringWithFormat:@"%d", creature.hitPoints];
     creatureImage.image = [UIImage imageNamed:creature.creatureImage];
-
+    creatureAccessories.text = creature.accessories;
+    
+    
 }
 
 - (void)didReceiveMemoryWarning

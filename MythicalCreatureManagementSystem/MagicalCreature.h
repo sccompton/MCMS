@@ -14,4 +14,5 @@
 @property NSInteger attackPoints;
 @property NSInteger hitPoints;
 @property NSString *creatureImage;
+@property NSString *accessories;
 @end

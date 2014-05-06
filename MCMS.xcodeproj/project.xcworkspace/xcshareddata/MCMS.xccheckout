@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>97E6C9F2-8361-4323-9F00-58315B5CF06F</string>
+	<key>IDESourceControlProjectName</key>
+	<string>MCMS</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>DBF8FA81-D53B-4F63-9C1E-08F6588BAA04</key>
+		<string>ssh://github.com/sccompton/MCMS.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>MCMS.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>DBF8FA81-D53B-4F63-9C1E-08F6588BAA04</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/sccompton/MCMS.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>DBF8FA81-D53B-4F63-9C1E-08F6588BAA04</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>DBF8FA81-D53B-4F63-9C1E-08F6588BAA04</string>
+			<key>IDESourceControlWCCName</key>
+			<string>MythicalCreatureManagementSystem</string>
+		</dict>
+	</array>
+</dict>
+</plist>

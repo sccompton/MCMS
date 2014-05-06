@@ -68,7 +68,6 @@
 }
 
 
-
 - (IBAction)onAddButtonPressed:(id)sender {
     
     MagicalCreature *addedCreature;
@@ -86,7 +85,6 @@
     NSIndexPath *indexPath = [creaturesTableView indexPathForCell:sender];
     creaturesView.creature = [creatures objectAtIndex:indexPath.row];
 }
-
 
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
